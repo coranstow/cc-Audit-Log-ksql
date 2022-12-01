@@ -1,0 +1,58 @@
+{
+  "datacontenttype": "application/json",
+  "data": {
+    "serviceName": "crn://confluent.cloud/",
+    "methodName": "GetKafkaClusters",
+    "cloudResources": [
+      {
+        "scope": {
+          "resources": [
+            {
+              "type": "ORGANIZATION",
+              "resourceId": "822519a6-994c-43e6-a4df-9d877520f892"
+            }
+          ]
+        },
+        "resource": {
+          "type": "ENVIRONMENT",
+          "resourceId": "env-xg59z"
+        }
+      }
+    ],
+    "authenticationInfo": {
+      "principal": {
+        "email": "cstow+svcs-apac@confluent.io",
+        "confluentUser": {
+          "resourceId": "u-epvowm"
+        }
+      },
+      "result": "SUCCESS"
+    },
+    "requestMetadata": {
+      "requestId": [
+        "6a8eb203095fcfe9997fcdd78c3822a0"
+      ],
+      "clientAddress": [
+        {
+          "ip": "110.33.56.219"
+        }
+      ]
+    },
+    "request": {
+      "accessType": "READ_ONLY",
+      "data": {
+        "account_id": "env-xg59z"
+      }
+    },
+    "result": {
+      "status": "SUCCESS"
+    },
+    "resourceName": "crn://confluent.cloud/organization=822519a6-994c-43e6-a4df-9d877520f892/environment=env-xg59z"
+  },
+  "subject": "crn://confluent.cloud/organization=822519a6-994c-43e6-a4df-9d877520f892/environment=env-xg59z",
+  "specversion": "1.0",
+  "id": "d15fc480-e158-4ad9-927d-4714b9062818",
+  "source": "crn://confluent.cloud/",
+  "time": "2022-11-30T04:31:46.669Z",
+  "type": "io.confluent.cloud/request"
+}

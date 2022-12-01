@@ -1,0 +1,28 @@
+{
+  "datacontenttype": "application/json",
+  "data": {
+    "serviceName": "crn://confluent.cloud/organization=822519a6-994c-43e6-a4df-9d877520f892/environment=env-xg59z/cloud-cluster=lkc-9kg320/kafka=lkc-9kg320",
+    "methodName": "kafka.Authentication",
+    "resourceName": "crn://confluent.cloud/organization=822519a6-994c-43e6-a4df-9d877520f892/environment=env-xg59z/cloud-cluster=lkc-9kg320/kafka=lkc-9kg320",
+    "authenticationInfo": {
+      "principal": "User:253696",
+      "metadata": {
+        "mechanism": "SASL_SSL/OAUTHBEARER",
+        "identifier": "253696"
+      },
+      "principalResourceId": "u-epvowm"
+    },
+    "requestMetadata": {
+      "connection_id": 166976909279400003
+    },
+    "result": {
+      "status": "SUCCESS"
+    }
+  },
+  "subject": "crn://confluent.cloud/organization=822519a6-994c-43e6-a4df-9d877520f892/environment=env-xg59z/cloud-cluster=lkc-9kg320/kafka=lkc-9kg320",
+  "specversion": "1.0",
+  "id": "eb70183a-d9c1-4e93-a725-ca5f407d5aa1",
+  "source": "crn://confluent.cloud/organization=822519a6-994c-43e6-a4df-9d877520f892/environment=env-xg59z/cloud-cluster=lkc-9kg320/kafka=lkc-9kg320",
+  "time": "2022-11-30T00:44:52.806Z",
+  "type": "io.confluent.kafka.server/authentication"
+}

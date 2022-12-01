@@ -1,0 +1,6 @@
+[
+  {
+    "key": "content-type",
+    "stringValue": "application/cloudevents+json; charset=UTF-8"
+  }
+]
