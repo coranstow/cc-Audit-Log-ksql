@@ -10,3 +10,4 @@ The mirror topic has a restrictions on what we can do with it, including a restr
 3. Create the stream `confluent_audit_log_events_all_events` that contains all the audit events from `confluent-audit-log-events-retained` deserialized as JSON.
 
 Note that the `data` field of the `confluent_audit_log_events_all_events` stream is dynamically typed. That is the schema of the JSON in the `data` field will depend on the falue of the `type` field. There are three possible schemas corresponding to the three types of events that are audited - authentication, authorization, request. 
+
