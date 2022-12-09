@@ -1,8 +1,8 @@
 # KSQL for Confluent Audit
-This repo contains some ksql statements that manage Confluent Clout audit logs. It assumes that the confluent audit log topic has beeen mirrored into the local cluster by Confluent Cluster Linking.
+This repo contains some ksql statements that manage Confluent Clout audit logs. It assumes that the confluent audit log topic has been mirrored into the local cluster by Confluent Cluster Linking.
 
 ## Start by creating a stream over the mirror topic and replicating everything into a new topic.
-The mirror topic has a restrictions on what we can do with it, including a restriction on changing the retention time away. We will replicate the mesages from the mirror topic into a new topic with different settings, including a longer retention.
+The mirror topic has a restrictions on what we can do with it, including a restriction on changing the retention time away. We will replicate the messages from the mirror topic into a new topic with different settings, including a longer retention.
 
 `create-retrained-audit-stream-topic.sql` will 
 1. Create the stream `confluent_audit_log_events_mirror_raw` over the audit mirror topic
