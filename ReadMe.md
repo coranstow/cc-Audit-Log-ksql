@@ -1,4 +1,4 @@
-#KSQL for Confluent Audit
+# KSQL for Confluent Audit
 This repo contains some ksql statements that manage Confluent Clout audit logs. It assumes that the confluent audit log topic has beeen mirrored into the local cluster by Confluent Cluster Linking.
 
 ## Start by creating a stream over the mirror topic and replicating everything into a new topic.
